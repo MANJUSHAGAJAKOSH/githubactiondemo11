@@ -22,7 +22,7 @@ jobs:
 
   transform-data:
     runs-on: ubuntu-latest
-    needs: 
+    needs: extract-data
 
     steps:
       - name: Checkout code
@@ -44,6 +44,6 @@ jobs:
 
 
 
-        
+
 
 
